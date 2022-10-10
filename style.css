@@ -276,6 +276,7 @@ address { font-style: italic; }
 .sportsmagazine-sticky .sportsmagazine-header-two .sportsmagazine-main-header {
     background: none;
 }
+
 .sportsmagazine-sticky .sportsmagazine-logo-two,.sportsmagazine-sticky .header-info { display: none;}
 .sportsmagazine-sticky .sportsmagazine-header-two .navbar {
     position: absolute;
@@ -8422,3 +8423,11 @@ blockquote span:before {
          -o-transition: all 0.4s ease-in-out;
             transition: all 0.4s ease-in-out;
 }
+@media (max-width: 400px) {
+    .sportsmagazine-logo {
+      display:none; } }
+	  
+@media (min-width: 400px) {
+    .navbar-toggler {
+      display:none;
+	  } }	  
